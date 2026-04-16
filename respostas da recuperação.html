@@ -1,0 +1,28 @@
+1)R;
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de Front-End</title>
+    <link rel="shortcut icon" href="images.ico" type="image/x-icon">
+</head>
+
+  2)r:
+<body>
+    <section>
+        <h1>Piraquara é a melhor cidade!</h1>
+        <img src="imagens/piraquara-face-da-notícia1.jpg" alt="Essa é Piraquara">
+        <img src="img_202304141227gBqF.jpg" alt="Eu amo Piraquara!">
+    
+        <!-- Uso correto da tag picture -->
+        <picture>
+            <!-- Se a tela for maior que 1024px, carrega esta: -->
+            <source media="(min-width: 1024px)" srcset="imagens/dji_0042.jpg" type="image/jpeg">
+            
+            <!-- Imagem padrão para telas menores (obrigatória) -->
+            <img src="imagens/piraquara-mobile.jpg" alt="Vista aérea de Piraquara">
+        </picture>
+    </section>    
+</body>
+</html>
