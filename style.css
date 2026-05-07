@@ -1,0 +1,23 @@
+@charset "UTF-8";/*codificação padrão de css externo*/
+
+body{
+background-color: rgb(255, 238, 165);
+font-family: 'Courier New', Courier, monospace;
+font-size: 25px;
+}
+
+h1{
+    color:maroon;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+h2{
+    color: chocolate;
+    background-color: rgb(255, 198, 124);
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
